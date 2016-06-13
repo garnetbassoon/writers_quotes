@@ -1,0 +1,73 @@
+@import "normalize.css";
+
+html {
+   background:  url("work-station-straight-on-view-unsplash.jpg") no-repeat center fixed; 
+   background-size: cover;
+} 
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 140px auto 60px;
+}
+
+span {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 80%;
+    
+}
+
+#quotes {
+     opacity: 0;
+     -webkit-transition: opacity 4s linear 4s;
+     transition: opacity 4s linear 4s;
+}
+
+@media only screen and (min-width: 731px ) {
+    body {
+        margin: 52px; 
+        line-height: 1em;
+    }
+    
+    span {
+        width: 40% ;  
+    }
+}
+      
+@media only screen and (min-width: 1024px){
+   body {
+       font-size: 1.5em;
+       margin:150px 100px ;
+   }
+   
+   span {
+       width: 45%;
+   }  
+}
+
+@media only screen and (min-width: 1200px){
+   body {
+       font-size: 1.5em;
+       
+   }
+   
+   span {
+       width: 30%;
+   }  
+}        
+
+@media only screen and (min-width: 1350px){
+   body {
+       font-size: 1.5em;
+       line-height: 1.5em;
+       margin: 40px auto 60px; 
+   }
+   
+   span {
+       width: 30%;
+   }  
+}        
